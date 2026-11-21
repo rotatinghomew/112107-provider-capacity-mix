@@ -1,51 +1,94 @@
 {
-  "project": "服务机构与护理员承接能力资料",
   "data_is_synthetic": true,
-  "encoding": "UTF-8",
+  "timezone": "Asia/Shanghai",
   "files": {
-    "sites.csv": {
+    "skills.csv": {
       "columns": [
-        "site_id",
-        "provider_id",
-        "street_id",
-        "service_type",
-        "active_from",
-        "active_to"
-      ],
-      "row_count": 3
-    },
-    "workers.csv": {
-      "columns": [
-        "worker_id",
-        "provider_id",
+        "group",
+        "provider",
         "skill",
-        "credential_valid_from",
-        "credential_valid_to",
-        "review"
+        "from",
+        "until",
+        "recorded_at",
+        "state"
+      ],
+      "row_count": 5
+    },
+    "shift_offers.csv": {
+      "columns": [
+        "physical_shift",
+        "group",
+        "day",
+        "start",
+        "end",
+        "from_site",
+        "eligible_sites",
+        "guaranteed"
       ],
       "row_count": 4
     },
-    "availability.csv": {
+    "travel.csv": {
       "columns": [
-        "worker_id",
-        "site_id",
-        "period",
-        "hours",
-        "revision"
+        "from",
+        "to",
+        "minutes"
       ],
-      "row_count": 4
+      "row_count": 2
     },
-    "requests.csv": {
+    "tenders.csv": {
       "columns": [
-        "request_id",
-        "street_id",
-        "service_type",
-        "period",
-        "hours",
-        "status",
-        "provider_id"
+        "tender",
+        "package",
+        "site",
+        "skill",
+        "shift",
+        "bid_cents",
+        "allow_split",
+        "excludes",
+        "valid_to"
       ],
-      "row_count": 4
+      "row_count": 5
+    },
+    "floor_contracts.csv": {
+      "columns": [
+        "agreement",
+        "site",
+        "skill",
+        "shift",
+        "week_from",
+        "week_to",
+        "status"
+      ],
+      "row_count": 1
+    },
+    "tender_policy.csv": {
+      "columns": [
+        "site",
+        "skill",
+        "window",
+        "priority",
+        "min_shifts",
+        "min_sample",
+        "min_credible_coverage",
+        "budget_cents"
+      ],
+      "row_count": 2
+    },
+    "assignment_history.csv": {
+      "columns": [
+        "request",
+        "group",
+        "site",
+        "skill",
+        "date",
+        "window",
+        "dispatched",
+        "stopped_early",
+        "reply",
+        "delivered",
+        "recorded_at"
+      ],
+      "row_count": 104
     }
   }
 }

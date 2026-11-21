@@ -1,0 +1,5 @@
+physical_shift,group,day,start,end,from_site,eligible_sites,guaranteed
+PH1,G1,1,09:00,13:00,东湾,东湾;桥南,yes
+PH2,G1,1,13:00,16:00,东湾,东湾;桥南,no
+PH3,G2,1,09:00,13:00,桥南,桥南,yes
+PH4,G3,1,09:00,13:00,东湾,东湾;桥南,yes

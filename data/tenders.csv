@@ -1,0 +1,6 @@
+tender,package,site,skill,shift,bid_cents,allow_split,excludes,valid_to
+T1,P1,东湾,陪诊,PH1,380000,no,P2,2026-09-28
+T2,P1,桥南,康辅,PH2,210000,no,P2,2026-09-28
+T3,P2,桥南,康辅,PH1,380000,yes,P1,2026-09-28
+T4,P3,桥南,康辅,PH3,650000,yes,,2026-09-28
+T5,P4,东湾,康辅,PH4,260000,yes,,2026-09-28

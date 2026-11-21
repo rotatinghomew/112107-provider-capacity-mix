@@ -1,5 +1,0 @@
-request_id,street_id,service_type,period,hours,status,provider_id
-R1,X1,bathing,2026-W12,4,accepted,O1
-R2,X1,bathing,2026-W12,5,unfilled,
-R3,X2,escort,2026-W12,5,accepted,O1
-R4,X2,bathing,2026-W12,3,accepted,O2

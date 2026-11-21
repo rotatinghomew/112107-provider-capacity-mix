@@ -1,0 +1,3 @@
+site,skill,window,priority,min_shifts,min_sample,min_credible_coverage,budget_cents
+东湾,康辅,周一上午,1,1,10,0.68,2500000
+桥南,康辅,周一上午,2,2,10,0.68,2500000
