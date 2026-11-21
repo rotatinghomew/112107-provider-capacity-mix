@@ -1,0 +1,5 @@
+worker_id,site_id,period,hours,revision
+W11,S11,2026-W12,8,1
+W11,S12,2026-W12,8,1
+W12,S11,2026-W12,10,1
+W21,S21,2026-W12,6,2

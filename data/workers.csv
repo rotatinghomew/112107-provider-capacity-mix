@@ -1,0 +1,5 @@
+worker_id,provider_id,skill,credential_valid_from,credential_valid_to,review
+W11,O1,bathing,2025-08-01,2026-08-01,verified
+W11,O1,escort,2026-01-15,2026-07-15,verified
+W12,O1,bathing,2026-02-01,,pending_practice
+W21,O2,bathing,2025-10-01,2026-04-30,verified

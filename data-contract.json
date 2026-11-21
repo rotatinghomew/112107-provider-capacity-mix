@@ -1,0 +1,51 @@
+{
+  "project": "服务机构与护理员承接能力资料",
+  "data_is_synthetic": true,
+  "encoding": "UTF-8",
+  "files": {
+    "sites.csv": {
+      "columns": [
+        "site_id",
+        "provider_id",
+        "street_id",
+        "service_type",
+        "active_from",
+        "active_to"
+      ],
+      "row_count": 3
+    },
+    "workers.csv": {
+      "columns": [
+        "worker_id",
+        "provider_id",
+        "skill",
+        "credential_valid_from",
+        "credential_valid_to",
+        "review"
+      ],
+      "row_count": 4
+    },
+    "availability.csv": {
+      "columns": [
+        "worker_id",
+        "site_id",
+        "period",
+        "hours",
+        "revision"
+      ],
+      "row_count": 4
+    },
+    "requests.csv": {
+      "columns": [
+        "request_id",
+        "street_id",
+        "service_type",
+        "period",
+        "hours",
+        "status",
+        "provider_id"
+      ],
+      "row_count": 4
+    }
+  }
+}
